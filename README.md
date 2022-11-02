@@ -1,6 +1,6 @@
 # UW Hackathon Challenge
 
-
+This is my groups code for the 2 day hackathon for the Toyota Innovation Challenge.
 
 ## Background:
 
@@ -13,6 +13,7 @@ Currently, the vision system triggers are not consistent which causes variation 
 
 The assembly shop has different lines. Each line consists of fixed length pitches. The vehicles in the pitches can be of different lengths (multi model). Currently, the vision system uses a line encoder but due to the communication delays and some mechanical issues (such as in the carriers rocking), the vision does not precisely know the position of vehicle. 
 
+![example](example.png)
 
 ## Requirement:
 A system is required to:
@@ -27,10 +28,7 @@ A system is required to:
 
 
 To assist with this challenge, we have created a set of standardized validation tests of increasing difficulty.  These tests are:
-- Challenge Data Source Detect the car – stationary Place bounding box around vehicle
-- test images Detect the wheels – stationary Place bounding box around front wheel test images
-- Detect the wheels in motion (plain background) Place bounding box around front wheel live astra camera feed
-- Detect the wheels in motion (noisy background) Screenshot when front wheel is centered on vertical extrusion live astra camera feed
-- Live position tracking along entire conveyor Output distance from start of conveyor to center of front wheel in centimeters live astra camera feed
+
+![table](https://github.com/matteo-psnt/Toyota-Innovation-Challenge/blob/f7fec6d025e4ce4748a6ca8a6c3828f849d7df3f/table%20of%20hackathon%20challenges.png)
 
 
